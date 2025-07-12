@@ -35,7 +35,9 @@ const Navigation = () => {
           </Button>
           <Button variant="outline" size="sm">
             <User className="h-4 w-4 mr-2" />
+          <a href="/signup" className="text-foreground hover:text-primary transition-colors">
             Sign In
+          </a>
           </Button>
           <Button size="sm" className="bg-gradient-primary hover:opacity-90">
             Get Started
