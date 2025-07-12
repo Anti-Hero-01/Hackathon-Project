@@ -13,7 +13,7 @@ const mockItems = [
     size: "M",
     condition: "Good",
     points: 15,
-    image: "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=400&h=600&fit=crop",
+    image: "https://images.unsplash.com/photo-1601036559620-3a83dfdead09?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     user: "Sarah M.",
     rating: 4.8,
     category: "Outerwear"
@@ -49,7 +49,7 @@ const mockItems = [
     size: "M",
     condition: "Excellent",
     points: 18,
-    image: "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=400&h=600&fit=crop",
+    image: "https://plus.unsplash.com/premium_photo-1661326280617-ba5f611d1746?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     user: "Anna L.",
     rating: 4.9,
     category: "Blazers"
@@ -73,11 +73,35 @@ const mockItems = [
     size: "S",
     condition: "Like New",
     points: 8,
-    image: "https://images.unsplash.com/photo-1583496661160-fb5886a13d36?w=400&h=600&fit=crop",
+    image: "https://images.unsplash.com/photo-1590048531149-775fb07585fa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG1heGklMjBza2lydHxlbnwwfHwwfHx8MA%3D%3D",
     user: "Lily W.",
     rating: 4.7,
     category: "Skirts"
-  }
+  },
+  {
+    id: "7",
+    title: "Denim Jeans",
+    brand: "Uniqlo",
+    size: "M",
+    condition: "Good",
+    points: 5,
+    image: "https://plus.unsplash.com/premium_photo-1665664652383-2308d742943c?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+     user: "Ellyse P.",
+    rating: 4.4,
+    category: "Jeans"
+  },
+   {
+    id: "8",
+    title: "Hoddie Sweatshirt",
+    brand: "Mango",
+    size: "M",
+    condition: "Excellent",
+    points: 18,
+    image: "https://images.unsplash.com/photo-1647771746351-7235cf9df865?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    user: "Alex P.",
+    rating: 4.9,
+    category: "Sweaters"
+  },
 ];
 
 const BrowseSection = () => {
